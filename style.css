@@ -1,0 +1,128 @@
+
+<style>
+
+body{
+  color: rgb(30, 30, 30);
+	text-align: justify;
+	text-decoration: none;
+}
+
+body{
+	background-image: url(https://media3.mediaprettymercerie.com/11366-thickbox_01oslo/doublure-satin-polyester-sable.jpg);
+	background-color: #cccccc;
+}
+
+h1{
+	font-size: 32px;
+	line-height: 1;
+	letter-spacing: 1px;
+	font-weight: bold;
+	justify-content: center;
+	color: rgb(244, 125, 64 );
+}
+
+h2{
+	font-size: 23px;
+	line-height: 1.8;
+	letter-spacing: 1px;
+	font-weight: 600;
+	color: rgb(244, 125, 64);
+}
+
+a{
+  color: teal;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: black;
+  text-decoration: none;
+ }
+
+div{
+	text-align:justify-all;
+	text-justify:values;
+}
+
+ /*Custom design with class*/
+
+ .container{
+ 	width: 700px;
+ 	margin:40px auto;
+ }
+
+@media(max-width: 650px){
+ 	.container{
+ 		width: 350px
+ 	}
+ }
+
+ .card-white{
+ 	background-color:papayawhip;
+    padding: 50px;
+    box-shadow: 0px 10px 35px rgb(0,0,0,0,1);
+    border-radius: 5px;
+    text-align: justify-all;
+    margin: 20px;
+ }
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.btn-orange{
+	background-color: ##5E83E9;
+	color: white;
+	padding: 15px 30px;
+	border-radius: 10px;
+}
+
+.btn-orange:hover {
+	background-color: ##D3D3D3;
+	color: white;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li{
+	display: inline;
+	padding: 15px;
+}
+
+.list-inline i{
+	font-size: 50px;
+	color: #FFC0CB
+}
+
+.list-inline i:hover {
+	font-size: 50px;
+	color: #000000
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+</style> 

@@ -8,7 +8,9 @@ body{
 }
 
 body{
-	background-image: url(https://media3.mediaprettymercerie.com/11366-thickbox_01oslo/doublure-satin-polyester-sable.jpg);
+	background-image: url(https://i.pinimg.com/originals/86/1e/06/861e06529d129825139d56740c366113.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 	background-color: #cccccc;
 }
 
@@ -18,7 +20,7 @@ h1{
 	letter-spacing: 1px;
 	font-weight: bold;
 	justify-content: center;
-	color: rgb(244, 125, 64 );
+	color: rgb(244, 125, 64);
 }
 
 h2{
@@ -26,7 +28,7 @@ h2{
 	line-height: 1.8;
 	letter-spacing: 1px;
 	font-weight: 600;
-	color: rgb(244, 125, 64);
+	color: rgb(255, 130, 182);
 }
 
 a{
@@ -119,9 +121,21 @@ div{
 	color: #000000
 }
 
+.btn-blue {
+	background-color:  #dd6dd0;
+	padding: 4px 8px;
+	border-radius: 5px;
+	color: white;
+	font-weight: bold;
+	font-family: 'Abel', sans-serif;
+}
+
 #introduction p {
 	margin-bottom: 40px;
 }
+
+
+
 
 
 
